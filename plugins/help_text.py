@@ -66,14 +66,6 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton('⚙CHANNEL⚙', url='https://t.me/VKPROJECTS'),
-                    InlineKeyboardButton('⚙GROUP⚙', url='https://t.me/VKP_BOTS'),
-                ]
-            ]
-        ),
         reply_to_message_id=update.message_id
     )
 
