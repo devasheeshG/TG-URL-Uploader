@@ -70,8 +70,8 @@ async def start(bot, update):
                 reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Heimansupports'),
-                    InlineKeyboardButton('Support Group', url='https://t.me/Heimansupport'),
+                    InlineKeyboardButton('⚙CHANNEL⚙', url='https://t.me/VKPROJECTS'),
+                    InlineKeyboardButton('⚙GROUP⚙', url='https://t.me/VKP_BOTS'),
                 ]
             ]
         ),
